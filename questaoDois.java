@@ -1,9 +1,7 @@
-package treinoJava;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class questaoDois{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         input.useLocale(Locale.ENGLISH);
@@ -34,5 +32,4 @@ public class questaoDois{
         
         result = semana +(aumenta*totalVendas);
         System.out.println("O vendedor "+vendedor+" arrecadou R$"+totalVendas+" e recebera um semanal de R$"+result);
-    }
-}
+   }
