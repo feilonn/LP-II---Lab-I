@@ -1,9 +1,6 @@
-package treinoJava;
-
 import java.util.Scanner;
 import java.util.Locale;
 
-public class questaoOito{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         input.useLocale(Locale.ENGLISH);
@@ -45,4 +42,3 @@ public class questaoOito{
            }System.out.println();
        }
     }
-}
