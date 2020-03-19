@@ -1,9 +1,6 @@
-package treinoJava;
-
 import java.util.Locale;
 import java.util.Scanner;
 
-public class questaoSete{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         input.useLocale(Locale.ENGLISH);
@@ -42,5 +39,5 @@ public class questaoSete{
         }else{
             System.out.println("Esse inteiro não é Palindromo");
         }
-    }
-}
+   }
+
