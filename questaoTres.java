@@ -1,9 +1,7 @@
-package treinoJava;
-
 import java.util.Scanner;
 import java.util.Locale;
 
-public class questaoTres{
+public class questaoTres
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         input.useLocale(Locale.ENGLISH);
@@ -49,4 +47,3 @@ public class questaoTres{
             + "receberá R$"+pagaFuncionarios[i]);
         }
     }
-}
