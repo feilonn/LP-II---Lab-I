@@ -1,6 +1,5 @@
-package treinoJava;
 
-public class questaoDez{
+
     public static void main(String[] args){
         
         int ladoUm, ladoDois, hipotenusa;
@@ -22,4 +21,3 @@ public class questaoDez{
             }
         }
     }
-}
