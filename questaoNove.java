@@ -1,9 +1,6 @@
-package treinoJava;
-
 import java.util.Scanner;
 import java.util.Locale;
 
-public class questaoNove{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         input.useLocale(Locale.ENGLISH);
@@ -73,4 +70,3 @@ public class questaoNove{
             System.out.println("Foram reembolsados "+quantidades[i]+" produtos de codigo "+(i+1)+", no valor de R$"+totalFinal[i]);
         }
     }
-}
